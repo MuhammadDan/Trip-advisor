@@ -1,0 +1,221 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tour{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    border-radius: 10px;
+    display: flex;
+}
+.heading{
+    margin-left: 10px;
+    margin: 25px;
+    width: 20%;
+}
+.navbar{
+width:100%;
+float: right;
+display: flex;
+justify-content: flex-end;
+}
+.button{
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+   margin: 40px 40px 5px 5px;
+    height: 30px;
+    width: 70px;
+    color: white;
+    background-color:black;
+}
+.navbar>ul>li{
+   display: inline-block;
+   list-style-type: none;
+  margin: 25px 25px 5px 5px;
+  padding: 5px;
+  
+}
+li>a{
+    text-decoration: none;
+    color: black;
+}
+li>a:hover{
+    background-color: grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    color: aqua;
+}
+.baradaba{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.box>h2{
+    font-size: 20px;
+}
+.box{
+    border-radius: 15px;
+    padding: 5px;
+    /* margin-left: 2px; */
+    border-style: solid;
+   height: 80px;
+   width:15%; 
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
+.box h2>i{
+    margin-left: 90px;
+    display: inline-flex;
+}
+.image{
+    text-align: center;
+    position: relative;
+}
+.opp{
+    border-radius: 10px;
+}
+.kara{
+    position: absolute;
+    color: black;
+    bottom: 40px;
+    padding-left:100px;
+    width: 30%;
+}
+.y6{
+    margin: 30px 30px 80px 80px;
+    width: 30%;
+}
+.pardaba{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tbh{
+    position: absolute;
+    bottom: 10px;
+}
+.tbh>h2{
+    color: white;
+}
+.daba1{
+    background-image: url("https://a.cdn-hotels.com/gdcs/production5/d1996/54fdb73f-eee5-4612-a3e7-6fc7ed2f7bee.jpg");
+    background-size:cover;
+    height: 200px;
+    position: relative;
+    width: 200px;
+    padding-left: 30px;
+    box-shadow: 2px 2px 4px black;
+}
+.daba2{
+    background-image:url("https://a.travel-assets.com/findyours-php/viewfinder/images/res70/494000/494934-downtown-toronto.jpg");
+    background-size:cover;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    padding-left: 30px;
+    box-shadow: 2px 2px 4px black;
+}
+.daba3{
+    background:url("https://travellersworldwide.com/wp-content/uploads/2022/05/shutterstock_1369316819.jpg");
+    background-size:cover;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    padding-left: 30px;
+    box-shadow: 2px 2px 4px black;
+}
+.daba4{
+    background-image:url("https://bstatic.com/data/xphoto/1182x887/425/42538305.jpg?size=S");
+    background-size:cover;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    padding-left: 40px;
+    box-shadow: 2px 2px 4px black;
+}
+.logo{
+    margin-left: 20px;
+}
+.kgf{
+    background-color:white;
+    box-shadow: 2px 2px 4px black;
+    margin-left: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    width : 250px;
+    height:350px;
+    position: relative;
+    display: inline-block;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.kgf:hover{
+    transform: scale(1.2);
+}
+.circle>i{
+    padding-top: 10px;
+}
+.circle{
+    top: 10px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    border-radius: 100%;
+    position: absolute;
+    right: 10px;
+    box-shadow: 2px 3px 4px black;
+}
+.sur1{
+    background-image:url("https://www.shutterstock.com/shutterstock/photos/1075655459/display_1500/stock-photo-mohenjo-daro-temple-1075655459.jpg");
+    height: 250px;
+    margin-bottom: 15px;
+    width: 250px;
+    background-size: cover;
+}
+.sur2{
+    background-image:url("https://smb2003.github.io/TourAdvisor/images/cart6.jpg");
+    height: 250px;
+    width: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.sur3{
+    background-image:url("https://smb2003.github.io/TourAdvisor/images/cart7.jpg");
+    height: 250px;
+    width: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.sur4{
+    background-image: url("https://smb2003.github.io/TourAdvisor/images/cart8.jpg");
+    height: 250px;
+    width: 250px;
+    margin-bottom: 16px;
+    background-size: cover;
+}
+.footer{
+    background-color: black;
+}
+ul{
+    list-style-type: none;
+}
+ul>li>a{
+    color: white;
+}
+.footer-col{
+    color:white;
+    width: 25%;
+    padding: 0 15px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
